@@ -1,0 +1,59 @@
+* {
+	color: purple;
+}
+
+div {
+	color: white;
+}
+
+.alert-text {
+	color: red;
+}
+
+#title {
+	background-color: red;
+}
+
+.read {
+	color: white;
+	background-color: black;
+}
+
+.unread {
+	color: white;
+	background-color: black;
+}
+
+/* Pode ser escrito da mesma forma */
+
+.read,
+.unread {
+	color: white;
+	background-color: black;
+}
+
+.subsection.header {
+	color: red;
+}
+
+.subsection#preview {
+	color: blue;
+}
+
+.ancestor . contents {
+	/* some declarations */
+}
+
+p {
+	 /* hex example: */
+  color: #1100ff;
+  	/* rgb example: */
+  color: rgb(100, 0, 127);
+  	/* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
+
+img {
+	height: auto;
+	width: 500px;
+}
